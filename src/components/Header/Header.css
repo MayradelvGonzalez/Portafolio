@@ -93,13 +93,13 @@ li a{
   }
 
   li {
-    width: 90px;
+    width: 150px;
     height: 30px;
     line-height: 35px;
+  
     padding: 0;
     border: none;
     background: var(--fondo);
-  /* background: linear-gradient(0deg, var(--fondo2) 0%, var(--fondo2) 100%); */
   background: linear-gradient(0deg,#757474 var(--fondo) 0%,var(--fondo) 0%,   100%);
   }
   li:hover {
@@ -148,7 +148,7 @@ li a{
   
 
   /* -------------------------------------------------- */
-@media (max-width: 600px){
+@media (max-width: 576px){
     #header{
         height: fit-content;
 
@@ -173,4 +173,7 @@ li a{
     background: var(--titulo2);
     height: 0%;
   }
+}
+@media (max-width: 667px){
+
 }

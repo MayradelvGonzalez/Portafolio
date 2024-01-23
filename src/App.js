@@ -41,7 +41,7 @@ function App() {
               <h3 className='animated_animate'>Full-Stack Developer</h3>
             </AccordionSummary>
             <AccordionDetails className='panelInfo' id="panel1-content" aria-describedby="panel1-header"  aria-hidden={expandedPanel !== 'panel1'} tabIndex={expandedPanel === 'panel1' ? 0 : -1}>
-          Hi! I'm Mayra, Full-Stack Developer.Como desarrolladora busco aprender constantemente y mejorar mi desempeño. Mi stack es MERN, tengo conocimientos de big data,y un gran interes en la accesibilidad web, lo que me llevó a aprender al respecto, y en este portfolio he aplicado mucho de eso. Considero que entre lo mas importante de ser desarrollador, esta el poder crear cosas que faciliten y aporten a la vida diaria, entonces deben ser dirigido a la mayor cantidad de personas posible, mas alla de sus habilidades.                                                
+         <p>Hi! I'm Mayra, Full-Stack Developer.Como desarrolladora busco aprender constantemente y mejorar mi desempeño. Mi stack es MERN, tengo conocimientos de big data,y un gran interes en la accesibilidad web, lo que me llevó a aprender al respecto, y en este portfolio he aplicado mucho de eso. Considero que entre lo mas importante de ser desarrollador, esta el poder crear cosas que faciliten y aporten a la vida diaria, entonces deben ser dirigido a la mayor cantidad de personas posible, mas alla de sus habilidades. </p>                                        
             </AccordionDetails>
           </Accordion>
         </div>
