@@ -14,9 +14,11 @@
   }
 #header{
     height: fit-content;
-    background-color:var(--fondo);
+    /* background-color:var(--titulo2); */
+    background: linear-gradient(0deg, var(--fondo) 0%,var(--fondo) 0%,  #757474 100%);
     color:var(--fondo3);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
     list-style-type:none;
     display: flex;
     justify-content: space-between;
@@ -33,7 +35,7 @@
 }
 .logoName img{
     width: 10rem;
-    height: 10rem;
+    height: 9rem;
     object-fit: contain;
    
 }
@@ -45,6 +47,7 @@
     height: max-content;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type:none;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-content: end;
@@ -83,7 +86,26 @@ li a{
     transform-origin: left;
     transform: scaleX(1);
   }
+  .curved {
+    position: relative;
+    background: #267cd3;
+    height: 50vh;
+  }
 
+
+  .curved::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    background: var(--fondo);
+    height: 46%;
+  }
+  
+
+  
 
   /* -------------------------------------------------- */
 @media (max-width: 600px){
@@ -99,4 +121,16 @@ li a{
   animation-duration:2s;
   }
 
+
+
+  .curved::after {
+    content: '';
+    border-top-left-radius: 60% 100%;
+    border-top-right-radius: 60% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    background: var(--titulo2);
+    height: 0%;
+  }
 }
