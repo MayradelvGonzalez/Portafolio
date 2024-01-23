@@ -1,0 +1,27 @@
+:root{
+    --fondo: #4B4B4B;
+    --texto: #006F9A;
+    --titulo:  #63ea92 ;
+
+    --fondo2:#FFFFFF;
+    --texto2:#FF2E00;
+    --titulo2:#444444;
+
+    --fondo3: 	 #e7d395;
+    --texto3:	#F3F2DA;
+    --titulo3:  #964B00;
+
+  }
+
+  .footer{
+color: var(--fondo3);
+width: 30em;
+height: 30em;
+background-color:var(--titulo2);
+height:fit-content;
+width: auto;
+display: flex;
+align-content: center;
+justify-content: center;
+text-align: center;
+  }

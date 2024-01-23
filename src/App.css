@@ -1,0 +1,94 @@
+:root {
+  --fondo: #4B4B4B;
+  --texto: #006F9A;
+  /* --titulo:#65D527; */
+  --titulo: #63ea92;
+  --fondo2: #FFFFFF;
+  --texto2: #FF2E00;
+  --titulo2: #444444;
+  --fondo3: #e7d395;
+  --texto3: #F3F2DA;
+  --titulo3: #964B00;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 30vmin;
+  width: 50vmin;
+  pointer-events: none;
+  border-radius: 6em;
+}
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: var(--fondo);
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--texto3);
+  
+}
+
+/* .App-link {
+  color: var(--titulo);
+  text-decoration: none;
+
+} */
+#panel2-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--titulo);
+  background-color: var(--fondo);
+}
+
+.panelInfo {
+  color: var(--texto3);
+  background-color: var(--fondo);
+  display: flex;
+
+}
+
+#panel1-header {
+  color: var(--texto3);
+  background-color: var(--fondo);
+  padding-left: 50%;
+  padding-right: 50%;
+}
+#panel1-header h3{
+width: max-content;
+padding: 2em;
+}
+.boton{
+  color:var(--fondo);
+ background-color:var(--fondo2);
+ border-radius:1em;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* separador */
+@media (max-width: 600px){
+
+
+
+}
