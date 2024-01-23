@@ -13,6 +13,7 @@
 
 .App {
   text-align: center;
+  font-family: absolute;
 
 }
 
@@ -53,6 +54,7 @@
   align-items: center;
   color: var(--titulo);
   background-color: var(--fondo);
+
 }
 
 .panelInfo {
@@ -76,6 +78,9 @@ padding: 2em;
   color:var(--fondo);
  background-color:var(--fondo2);
  border-radius:1em;
+ animation: rotateIn;
+ animation-duration:2s;
+
 }
 
 /* @keyframes App-logo-spin {
@@ -88,7 +93,15 @@ padding: 2em;
 } */
 /* separador */
 @media (max-width: 600px){
+  h3{
+  animation:zoomInLeft;
+  animation-duration:1s;
+}
+.boton{
+  animation: zoomInRight;
+  animation-duration:2s;
 
+}
 
 
 }
