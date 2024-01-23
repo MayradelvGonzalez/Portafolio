@@ -1,7 +1,8 @@
 import './Footer.css';
 function Footer() {
     return (
-        <div className="footer" role='contentinfo'><p>Creado por Mayra con 💖</p></div>)
+        <div className="footer" role='contentinfo'><p>Creado con 💖 2024</p></div>
+        )
 
 }
 
