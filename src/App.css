@@ -83,14 +83,7 @@ padding: 2em;
 
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
 /* separador */
 @media (max-width: 600px){
   h3{

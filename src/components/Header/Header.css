@@ -92,7 +92,47 @@ li a{
     height: 50vh;
   }
 
-
+  li {
+    width: 90px;
+    height: 30px;
+    line-height: 35px;
+    padding: 0;
+    border: none;
+    background: var(--fondo);
+  /* background: linear-gradient(0deg, var(--fondo2) 0%, var(--fondo2) 100%); */
+  background: linear-gradient(0deg,#757474 var(--fondo) 0%,var(--fondo) 0%,   100%);
+  }
+  li:hover {
+    color: var(--fondo3);
+    background: transparent;
+     box-shadow:none;
+  }
+  li:before,
+  li:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: var(--fondo3);
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  li:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  li:hover:before,
+  li:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
   .curved::after {
     content: '';
     border-top-left-radius: 50% 100%;
