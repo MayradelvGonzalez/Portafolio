@@ -3,7 +3,8 @@ import LogoNsf from '../../assets/LogoNsf.png';
 import 'animate.css';
 function Header() {
     return (
-        <div id="header" role='banner'>
+   
+        <div id="header" className='curved' role='banner'>
 
             <div className='logoName' role='navigation'> <img src={LogoNsf} className="App-logo" alt="logo" /></div>
             <div> <ul className="lista">
