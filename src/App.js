@@ -18,8 +18,8 @@ function App() {
   };
   return (
 
-    <div className="App" role='main'>
-      <div className="App-header">
+    <div className="App" role='main' >
+      <div className="App-header ">
         <h2>
           Mayra del Valle González
         </h2>
@@ -33,11 +33,12 @@ function App() {
   
           >
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon tabIndex={expandedPanel === 'panel1' ? 0 : -1} className='boton'/>}
+              expandIcon={<ExpandMoreIcon tabIndex={expandedPanel === 'panel1' ? 0 : -1} className='boton animate_animated'/>}
               aria-expanded={expandedPanel === 'panel1'}
               id="panel1-header"
+              
             >
-              <h3>Full-Stack Developer</h3>
+              <h3 className='animated_animate'>Full-Stack Developer</h3>
             </AccordionSummary>
             <AccordionDetails className='panelInfo' id="panel1-content" aria-describedby="panel1-header"  aria-hidden={expandedPanel !== 'panel1'} tabIndex={expandedPanel === 'panel1' ? 0 : -1}>
           Hi! I'm Mayra, Full-Stack Developer.Como desarrolladora busco aprender constantemente y mejorar mi desempeño. Mi stack es MERN, tengo conocimientos de big data,y un gran interes en la accesibilidad web, lo que me llevó a aprender al respecto, y en este portfolio he aplicado mucho de eso. Considero que entre lo mas importante de ser desarrollador, esta el poder crear cosas que faciliten y aporten a la vida diaria, entonces deben ser dirigido a la mayor cantidad de personas posible, mas alla de sus habilidades.                                                
