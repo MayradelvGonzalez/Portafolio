@@ -8,7 +8,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
-
+import Info from './components/Info/Info';
+import 'animate.css';
 
 function App() {
   const [expandedPanel, setExpandedPanel] = useState(null);
@@ -47,7 +48,9 @@ function App() {
         </div>
         <img src={LogoB} className="App-logo" alt="logo de la página" aria-label='Logo de la página' />
       </div>
+      <Info />
     </div>
+    
   );
 }
 export default App;
