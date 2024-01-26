@@ -1,0 +1,48 @@
+:root {
+    --fondo: #4B4B4B;
+    --texto: #006F9A;
+    /* --titulo:#65D527; */
+    --titulo: #63ea92;
+    --fondo2: #FFFFFF;
+    --texto2: #FF2E00;
+    --titulo2: #444444;
+    --fondo3: #e7d395;
+    --texto3: #F3F2DA;
+    --titulo3: #964B00;
+  }
+  AccordionDetails p{
+    background-color:#006F9A
+  }
+  .info{
+    background-color:var(--fondo);
+    padding: 0.3em;
+  }
+.infoTabla{
+    display: flex;
+    background-color:var(--titulo2);
+    font-size: 0.5em;
+    color:var(--texto3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.columna {
+    flex: 1;
+   
+    background-color: var(--fondo);
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #panel1-header{
+    flex-direction: column;
+    background-color:var(--fondo);
+  }
+
+  @media (max-width: 600px){
+    .infoTabla{
+flex-direction: column;
+    }
+    .info{
+        padding-bottom: 2.5em;
+    }
+  }
