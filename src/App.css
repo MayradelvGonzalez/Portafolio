@@ -88,11 +88,15 @@ padding: 2em;
 @media (max-width: 600px){
   h3{
   animation:zoomInLeft;
-  animation-duration:1s;
+  animation-duration:2.5s;
+}
+h2{
+  animation:fadeInTopRight;
+  animation-duration:2.5s;
 }
 .boton{
   animation: zoomInRight;
-  animation-duration:2s;
+  animation-duration:2.5s;
 
 }
 
